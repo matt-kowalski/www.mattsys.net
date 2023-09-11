@@ -1,6 +1,6 @@
 ---
 title: this is my first post
-date:
+date: {{ .Date }}
 categories: ["life"]
 tags: ["test1", "test2"]
 ---
