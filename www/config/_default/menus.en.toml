@@ -11,20 +11,32 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Geoguessr"
-  pageRef = "/geoguessr"
+  name = "Posts"
+  pageRef = "/posts"
   weight = 40
 
 [[main]]
-  name = "Homelab"
-  pageRef = "/homelab"
+  name = "Categories"
+  pageRef = "/categories"
   weight = 30
 
 [[main]]
   name = "Personal"
+  parent = "Categories"
   pageRef = "/personal"
   weight = 20
 
+[[main]]
+  name = "Geoguessr"
+  parent = "Categories"
+  pageRef = "/geoguessr"
+  weight = 20
+
+[[main]]
+  name = "Homelab"
+  parent = "Categories"
+  pageRef = "/homelab"
+  weight = 20
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
