@@ -17,8 +17,8 @@ enableCodeCopy = true
 
 disableImageOptimization = false
 
-defaultBackgroundImage = "/img/mountain.jpg" # used as default for background images 
-defaultFeaturedImage = "/img/mountain.jpg" # used as default for featured images in all articles
+defaultBackgroundImage = "/img/mountains.jpg" # used as default for background images 
+# defaultFeaturedImage = "/img/mountain.jpg" # used as default for featured images in all articles
 
 highlightCurrentMenuArea = false
 # smartTOC = true
@@ -36,7 +36,7 @@ highlightCurrentMenuArea = false
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "/img/mountains.jpg" # used in: hero, and card
+  # homepageImage = "/img/mountains.jpg" # used in: hero, and card
   showRecent = true
   showRecentItems = 5
   showMoreLink = false
