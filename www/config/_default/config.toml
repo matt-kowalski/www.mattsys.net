@@ -23,6 +23,7 @@ buildFuture = false
 [taxonomies]
   tag = "tags"
   category = "categories"
+  geoguessr = "geoguessr"
   author = "authors"
   series = "series"
 
