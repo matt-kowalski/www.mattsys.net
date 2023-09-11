@@ -5,7 +5,6 @@ showDate: false
 showWordCount: false
 showEdit: false
 showAuthor: false
-showTitle: false
 ---
 
 # Hi! :wave:
