@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Matt's landing page"
+title = "Welcome to my website!"
 
 [params]
   displayName = "EN"
@@ -10,7 +10,7 @@ title = "Matt's landing page"
   dateFormat = "2 January 2006"
   logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
-  # description = "My awesome website"
+  description = "Matt's website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
