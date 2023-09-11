@@ -34,7 +34,7 @@
 [[footer]]
   name = "All posts"
   pageRef = "/posts"
-  weight = 40
+  weight = 20
 
 [[footer]]
   name = "Tags"
@@ -44,4 +44,4 @@
 [[footer]]
   name = "Categories"
   pageRef = "categories"
-  weight = 20
+  weight = 40
