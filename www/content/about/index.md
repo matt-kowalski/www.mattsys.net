@@ -5,6 +5,7 @@ showDate: false
 showWordCount: false
 showEdit: false
 showAuthor: false
+showTaxonomy: false
 categories:
     - personal
 ---
