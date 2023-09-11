@@ -18,7 +18,7 @@ enableCodeCopy = true
 disableImageOptimization = false
 
 defaultBackgroundImage = "/img/mountains.jpg" # used as default for background images 
-# defaultFeaturedImage = "/img/mountain.jpg" # used as default for featured images in all articles
+defaultFeaturedImage = "/img/mountain.jpg" # used as default for featured images in all articles
 
 highlightCurrentMenuArea = false
 # smartTOC = true
