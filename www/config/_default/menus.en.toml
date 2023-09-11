@@ -11,24 +11,19 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
- name = "Geoguessr"
- pageRef = "/geoguessr"
- weight = 40
+  name = "Geoguessr"
+  pageRef = "/geoguessr"
+  weight = 40
 
 [[main]]
- name = "Homelab"
- pageRef = "/homelab"
- weight = 30
+  name = "Homelab"
+  pageRef = "/homelab"
+  weight = 30
 
 [[main]]
- name = "Personal"
- pageRef = "/personal"
- weight = 20
-
-[[subnavigation]]
- name = "All posts"
- pageRef = "/posts"
- weight = 20
+  name = "Personal"
+  pageRef = "/personal"
+  weight = 20
 
 
 # -- Footer Menu --
@@ -37,9 +32,14 @@
 
 
 [[footer]]
+  name = "All posts"
+  pageRef = "/posts"
+  weight = 40
+
+[[footer]]
   name = "Tags"
   pageRef = "tags"
-  weight = 20
+  weight = 30
 
 [[footer]]
   name = "Categories"
