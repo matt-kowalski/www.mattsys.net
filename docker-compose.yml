@@ -1,0 +1,12 @@
+version: '3'
+services:
+  hugo:
+    image: klakegg/hugo
+    container_name: hugo
+    restart: unless-stopped
+    command: server -D
+    volumes:
+      - "./www.mattsys.net:/src"
+    ports:
+      - "1313:1313"
+
