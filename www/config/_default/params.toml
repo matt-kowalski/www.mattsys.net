@@ -30,16 +30,16 @@ highlightCurrentMenuArea = true
 [footer]
   showMenu = true
   showCopyright = true
-  showThemeAttribution = false
+  showThemeAttribution = true
   showAppearanceSwitcher = false
-  showScrollToTop = false
+  showScrollToTop = true
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
   homepageImage = "/img/mountains.jpg" # used in: hero, and card
   showRecent = true
   showRecentItems = 5
-  showMoreLink = true
+  showMoreLink = false
   showMoreLinkDest = "/posts"
   cardView = true
   cardViewScreenWidth = false
@@ -56,7 +56,7 @@ highlightCurrentMenuArea = true
   # layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   # layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = true
-  showDraftLabel = false
+  showDraftLabel = true
   showEdit = true
   editURL = "https://www.readmestack.com/edit/repos/matt-kowalski/www.mattsys.net/contents/www/content" # edit using readmestack.com
   editAppendPath = true
