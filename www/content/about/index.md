@@ -5,7 +5,7 @@ showDate: false
 showWordCount: false
 showEdit: false
 showAuthor: false
-category:
+categories:
     - personal
 ---
 
