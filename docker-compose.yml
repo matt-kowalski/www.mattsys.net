@@ -4,7 +4,7 @@ services:
     image: klakegg/hugo
     container_name: hugo
     restart: unless-stopped
-    command: server -D
+    command: server
     volumes:
       - "./www:/src"
     ports:
