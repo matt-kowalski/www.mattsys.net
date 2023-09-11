@@ -11,8 +11,23 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
- name = "Posts"
- pageRef = "posts"
+ name = "Geoguessr"
+ pageRef = "/geoguessr"
+ weight = 40
+
+[[main]]
+ name = "Homelab"
+ pageRef = "/homelab"
+ weight = 30
+
+[[main]]
+ name = "Personal"
+ pageRef = "/personal"
+ weight = 20
+
+[[subnavigation]]
+ name = "All posts"
+ pageRef = "/posts"
  weight = 20
 
 
