@@ -1,6 +1,9 @@
 ---
 Title: About
 Description: Who am I?
+showDate: false
+showWordCount: false
+showEditUrl: false
 ---
 
 # Hi! :wave:
