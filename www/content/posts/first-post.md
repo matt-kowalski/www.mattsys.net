@@ -1,9 +1,7 @@
 ---
-title: this is my first post
-date: {{ .Date }}
-categories: ["life"]
-tags: ["test1", "test2"]
+title: "test post"
+date: "2023-09-11"
+draft: true
 ---
-
-# Test
-Test!!!
+# Test post!
+This is a test post
