@@ -6,7 +6,7 @@ services:
     restart: unless-stopped
     command: server -D
     volumes:
-      - "./www.mattsys.net:/src"
+      - "./www:/src"
     ports:
       - "1313:1313"
 

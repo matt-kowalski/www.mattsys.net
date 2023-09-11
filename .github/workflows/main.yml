@@ -8,19 +8,14 @@ on:
 jobs:
   deploy:
     runs-on: self-hosted
+    env:
+      workdir: /home/kowalski/hugo
 
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v2
-
-      - name: Navigate to git Directory
-        run: cd /home/kowalski/hugo/data
-
-      - name: Sync with Git Changes
+      - name: Sync with remote changes
         run: git pull
+        working-directory: ${{env.workdir}}
 
-      - name: Navigate to parent Directory
-        run: cd ..
-          
-      - name: Reload Docker Compose Stack
+      - name: Reload docker stack
         run: docker compose up -d --force-recreate
+        working-directory: ${{env.workdir}}
