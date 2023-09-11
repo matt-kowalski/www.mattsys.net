@@ -20,7 +20,7 @@ disableImageOptimization = false
 defaultBackgroundImage = "/img/mountain.jpg" # used as default for background images 
 defaultFeaturedImage = "/img/mountain.jpg" # used as default for featured images in all articles
 
-highlightCurrentMenuArea = true
+highlightCurrentMenuArea = false
 # smartTOC = true
 # smartTOCHideUnfocusedChildren = true
 
