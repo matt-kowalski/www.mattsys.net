@@ -5,6 +5,8 @@ showDate: false
 showWordCount: false
 showEdit: false
 showAuthor: false
+category:
+    - personal
 ---
 
 # Hi! :wave:
